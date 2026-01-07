@@ -25,10 +25,10 @@ public class PersonDatabase {
                 new Person("Priya"));
     }
 
-    public Person[] currentList() {
+     public Person[] currentList() {
         return persons.toArray(new Person[0]);
     }
-
+    // get a person by using his id
     public Person getPerson(int id) {
         if (id < persons.size()) {
             return persons.get(id);
