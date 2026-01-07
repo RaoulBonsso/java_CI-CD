@@ -16,11 +16,11 @@ public class Person {
     public Person(String name) {
         this.name = name;
     }
-    
+    // getter 
     public String getName() {
         return name;
     }
-
+    // setter
     public void setName(String name) {
         this.name = name;
     }
