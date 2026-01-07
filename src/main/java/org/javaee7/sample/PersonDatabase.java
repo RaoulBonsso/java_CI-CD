@@ -9,7 +9,7 @@ import javax.ws.rs.NotFoundException;
 
 @Singleton
 public class PersonDatabase {
-
+    // person list
     List<Person> persons;
 
     @PostConstruct

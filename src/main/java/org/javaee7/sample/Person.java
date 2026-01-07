@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 public class Person {
+    // person name
     private String name;
 
     public Person() {
